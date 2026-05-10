@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  ::selection {
+    background-color: #2B6CB0;
+    color: white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-3.5 bg-steel-600 text-white font-semibold rounded-lg
+           hover:bg-steel-500 transition-all duration-300 hover:shadow-lg hover:shadow-steel-600/25
+           active:scale-[0.98];
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center px-8 py-3.5 bg-accent-500 text-white font-semibold rounded-lg
+           hover:bg-accent-400 transition-all duration-300 hover:shadow-lg hover:shadow-accent-500/25
+           active:scale-[0.98];
+  }
+
+  .btn-urgent {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-urgent-600 text-white font-semibold rounded-lg
+           hover:bg-urgent-500 transition-all duration-300 hover:shadow-lg hover:shadow-urgent-600/25
+           active:scale-[0.98] animate-pulse-slow;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 px-4 sm:px-6 lg:px-8;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
