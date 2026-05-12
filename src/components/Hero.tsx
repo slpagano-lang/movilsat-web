@@ -50,7 +50,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl animate-fade-in-up" style={{ animationDelay: '0.15s' }}>
-            Desplegamos, mantenemos e integramos redes, datos, fibra óptica, seguridad electrónica y automatización.
+            Desplegamos, mantenemos e integramos redes de datos, fibra óptica, seguridad electrónica y automatización.
           </p>
 
           {/* CTAs */}
