@@ -50,8 +50,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl animate-fade-in-up" style={{ animationDelay: '0.15s' }}>
-            Integramos redes, fibra óptica, seguridad electrónica y automatización.
-            Con atención personalizada 24/7 que te responde en minutos, no en días.
+            Desplegamos, mantenemos e integramos redes, datos, fibra óptica, seguridad electrónica y automatización.
           </p>
 
           {/* CTAs */}
