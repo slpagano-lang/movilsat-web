@@ -37,7 +37,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-urgent-600/15 border border-urgent-500/30 rounded-full mb-8 animate-fade-in">
             <Shield className="w-4 h-4 text-urgent-400" />
             <span className="text-urgent-400 text-sm font-medium">
-              Atención personalizada 24/7 — 365 días
+              Guardia de mantenimiento las 24 hs todo el año
             </span>
           </div>
 
