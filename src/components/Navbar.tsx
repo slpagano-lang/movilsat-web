@@ -32,7 +32,7 @@ export default function Navbar() {
           {/* Logo — replace src with your real logo path */}
           <a href="#" className="flex items-center gap-2 group">
             <img
-              src="/Logo_Msat.jpg"
+              src="/movilsat-web/Logo_Msat.jpg"
               alt="Movilsat"
               className="h-9 w-auto group-hover:opacity-90 transition-opacity rounded"
               style={{ boxShadow: '0 0 0 2px white' }}
