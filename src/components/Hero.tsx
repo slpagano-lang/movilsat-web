@@ -50,7 +50,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl animate-fade-in-up" style={{ animationDelay: '0.15s' }}>
-            Desplegamos, mantenemos e integramos redes de datos, fibra óptica, seguridad electrónica y automatización.
+            Desplegamos, mantenemos, instalamos e integramos redes de fibra óptica, datos, seguridad electrónica y automatización.
           </p>
 
           {/* CTAs */}
@@ -64,7 +64,7 @@ export default function Hero() {
               className="btn-urgent text-base"
             >
               <Phone className="w-5 h-5" />
-              Emergencia 24/7 — Llámanos ahora
+              Emergencias 24/7 — Llámenos ahora
             </a>
           </div>
 
@@ -72,7 +72,7 @@ export default function Hero() {
           <div className="mt-14 flex flex-wrap gap-8 items-center animate-fade-in" style={{ animationDelay: '0.5s' }}>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-urgent-500" />
-              <span className="text-gray-400 text-sm">Respuesta &lt;30 min</span>
+              <span className="text-gray-400 text-sm">Respuesta &lt;60 min</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-steel-400" />
